@@ -1,0 +1,3 @@
+README for change_grade.py
+
+A simple module that reads through lines of an input file looking for a matching expression, then replaces the fourth value of the line with matching expression with the value of user input. All the lines from the file is outputted with the appropriate change.
