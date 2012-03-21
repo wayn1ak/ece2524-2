@@ -7,7 +7,6 @@ def change_grade(arg_array):
 
 	comments=""
 	values=""
-	verbose=True
 
 	if len(arg_array) != 3:
 		comments="Usage: change_grade.py STRING VALUE\n"
@@ -19,7 +18,7 @@ def change_grade(arg_array):
 		if m:
 			values[3] = arg_array[2]
 		print ",".join(values)
-    	return(values, comments)
+	return(values, comments)	
 
 if __name__=='__main__':
 	from sys import stderr,stdout,argv,exit
