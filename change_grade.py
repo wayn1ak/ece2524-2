@@ -12,6 +12,7 @@ def change_grade(arg_array):
 		comments="Usage: change_grade.py STRING VALUE\n"
 		return(values, comments)
 		exit(1)
+
 	for line in fileinput.input('-'):
 		m = re.search(arg_array[1], line)
 		values = line.rstrip().split(',')
