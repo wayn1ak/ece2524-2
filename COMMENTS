@@ -1,0 +1,10 @@
+There can be an if statement that can do some error checking to see if
+the length of the argument is not equal to 3.
+
+Move to after line 25:
+
+if len(argv) !=3:
+	stderr.write("Usage: change_grade.py STRING VALUE\n")
+	exit(1)
+
+This is a minor change which probably wouldn't matter in the program
